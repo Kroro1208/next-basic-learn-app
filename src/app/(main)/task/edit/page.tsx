@@ -7,4 +7,4 @@ const TaskEditPage = () => {
   )
 }
 
-export default TaskEditPage
+export default TaskEditPage;

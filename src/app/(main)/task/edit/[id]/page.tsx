@@ -8,4 +8,4 @@ const TaskEditIdPage = ({ params }: { params: { id: string }}) => {
   )
 }
 
-export default TaskEditIdPage
+export default TaskEditIdPage;

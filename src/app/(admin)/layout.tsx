@@ -10,4 +10,4 @@ const AdminLayout = ({children}: Readonly<{children: React.ReactNode;}>) => {
   );
 }
 
-export default AdminLayout
+export default AdminLayout;

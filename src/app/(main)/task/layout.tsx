@@ -10,4 +10,4 @@ const TaskLayout = ({children}: Readonly<{children: React.ReactNode;}>) => {
   );
 }
 
-export default TaskLayout
+export default TaskLayout;

@@ -7,4 +7,4 @@ const TaskPage = () => {
   );
 }
 
-export default TaskPage
+export default TaskPage;
