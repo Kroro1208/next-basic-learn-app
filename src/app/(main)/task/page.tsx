@@ -10,7 +10,9 @@ const getAllTasks = async() => {
 }
 
 const TaskPage = async () => {
-  const tasks = (await getAllTasks()).tasks as Task[];
+  // const tasks = (await getAllTasks()).tasks as Task[]; // 型アサーション
+  const tasksData: { tasks: Task[] } = await getAllTasks();
+  const tasks = tasksData.tasks;
   return (
     <div>
       {tasks.map((task) => (
